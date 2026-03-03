@@ -1,0 +1,99 @@
+body{
+    background-color: #17002d;
+     font-family: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t1{
+    color: #ffc840;
+    font-size: 30px;
+}
+
+.t2{
+    color: #ffc840;
+    font-size: 30px;
+}
+
+.t3{
+    color: #ffc840;
+    font-size: 30px;
+}
+
+
+.zizi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Logo{
+    position: relative;
+    justify-self: center;
+ 
+}
+
+
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    justify-content: space-around;
+
+
+}
+
+.logo1{
+    margin: 24px;
+}
+.logo2{
+    margin: 24px;
+}
+.logo3{
+    margin: 24px;
+}
+
+
+.logo4{
+    margin: 24px;
+}
+
+.dcr{
+    color: white;
+    font-size: 25px;
+}
+
+.mail{
+    color: white;
+    font-size: 25px;
+}
