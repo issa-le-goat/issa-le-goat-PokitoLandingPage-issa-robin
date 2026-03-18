@@ -39,7 +39,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
     gap: 20px;
     width: 100%;
     column-gap: 200px;
@@ -113,14 +114,14 @@
     width: 100%;
 }
 
-.boutonJR {
+.boutonJR{
     color: #FFC840;
-    outline: solid 3px #FFC840;
+    border: solid 3px #FFC840;
+    background-color: transparent;
     justify-self: center;
     width: 357px;
-    height: 74px;
+    height: 50px;
     text-align: center;
-    align-content: center;
     font-size: 32px;
     font-weight: 500;
     padding: 10px 20px;

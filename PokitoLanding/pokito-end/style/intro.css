@@ -60,6 +60,14 @@ html, body {
     min-width: 260px;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
+    
+
+}
+
+
+.bb{
+    display:flex;
+    gap: 45px;
 }
 
 .b1{
