@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="style/footer.css" />
     <link rel="stylesheet" href="style/StyleCarte.css" />
     <link rel="stylesheet" href="style/video.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
   </head>
   <body>
     <div class="intro">
       <div class="total">
         <div class="PositionImg">
-          <img src="./style/assets/Pokito-03.png" class="logo"  width="1500" height="auto" padding="0" />
+          <img src="./style/assets/Pokito-03.png" class="logo" alt="Logo Pokito" />
         </div>
 
 
@@ -34,7 +35,7 @@
 
         <div class="box">
           <div class="bb">
-            <button class="b1">Découvrir les règles</button>
+            <button class="b1" onclick="document.getElementById('rules').scrollIntoView()">Découvrir les règles</button>
             <button class="b2">Jouer</button>
           </div>
           
@@ -121,7 +122,7 @@
         </div>
       </div>
     </div> 
-     <div class="regles">
+     <div class="regles" id="rules">
       <div class="Titre">
         <img src="style/assets/Fleur(1) - Copie.png" alt="" class="Fleur" />
         <h1>Règles du jeu</h1>
@@ -135,92 +136,113 @@
       <div class="Regles"> 
 
         
+          <div class="1-5">
+              <div class="Hand">
 
-        <div class="Hand">
-          <p class="Num">1</p>
+                <p class="Num">1</p>
 
-          <img
-            src="style/assets/La quinte flush royale.png"
-            alt="carte de poker"
-          />
+                <img
+                  src="style/assets/La quinte flush royale.png"
+                  alt="carte de poker"
+                />
 
-          <p>La quinte flush royale</p>
-        </div>
+                <p>La quinte flush royale</p>
+              </div>
 
-        <div class="Hand">
-          <p class="Num">6</p>
 
-          <img src="style/assets/La suite (quinte).png" alt="carte de poker" />
 
-          <p>La suite (quinte)</p>
-        </div>
+              <div class="Hand">
+                <p class="Num">2</p>
 
-        <div class="Hand">
-          <p class="Num">2</p>
+                <img src="style/assets/La quinte flush.png" alt="carte de poker" />
 
-          <img src="style/assets/La quinte flush.png" alt="carte de poker" />
+                <p>La quinte flush</p>
+              </div>
 
-          <p>La quinte flush</p>
-        </div>
 
-        <div class="Hand">
-          <p class="Num">7</p>
+              <div class="Hand">
+                <p class="Num">3</p>
 
-          <img src="style/assets/Le brelan.png" alt="carte de poker" />
+                <img src="style/assets/Le carré.png" alt="carte de poker" />
 
-          <p>Le brelan</p>
-        </div>
+                <p>Le carré</p>
+              </div>
+             
 
-        <div class="Hand">
-          <p class="Num">3</p>
+              <div class="Hand">
+                <p class="Num">4</p>
 
-          <img src="style/assets/Le carré.png" alt="carte de poker" />
+                <img src="style/assets/Le full.png" alt="carte de poker" />
 
-          <p>Le carré</p>
-        </div>
+                <p>Le full</p>
+              </div>
 
-        <div class="Hand">
-          <p class="Num">8</p>
 
-          <img src="style/assets/La double paire.png" alt="carte de poker" />
 
-          <p>La double paire</p>
-        </div>
+              <div class="Hand">
+                <p class="Num">5</p>
 
-        <div class="Hand">
-          <p class="Num">4</p>
+                <img src="style/assets/La couleur (flush).png" alt="carte de poker" />
 
-          <img src="style/assets/Le full.png" alt="carte de poker" />
+                <p>La couleur (flush)</p>
+              </div>
+      
+            </div>
+          <div class="6-10">
+              <div class="Hand">
+                <p class="Num">6</p>
 
-          <p>Le full</p>
-        </div>
+                <img src="style/assets/La suite (quinte).png" alt="carte de poker" />
 
-        <div class="Hand">
-          <p class="Num">9</p>
+                <p>La suite (quinte)</p>
+              </div>
 
-          <img src="style/assets/La paire.png" alt="carte de poker" />
+              <div class="Hand">
+                <p class="Num">7</p>
 
-          <p>La paire</p>
-        </div>
+                <img src="style/assets/Le brelan.png" alt="carte de poker" />
 
-        <div class="Hand">
-          <p class="Num">5</p>
+                <p>Le brelan</p>
+              </div>
 
-          <img src="style/assets/La couleur (flush).png" alt="carte de poker" />
 
-          <p>La couleur (flush)</p>
-        </div>
 
-        <div class="Hand">
-          <p class="Num">10</p>
+              <div class="Hand">
+                <p class="Num">8</p>
 
-          <img
-            src="style/assets/La carte haute (isolée).png"
-            alt="carte de poker"
-          />
+                <img src="style/assets/La double paire.png" alt="carte de poker" />
 
-          <p>La carte haute (isolée)</p>
-        </div>
+                <p>La double paire</p>
+              </div>
+
+
+
+              <div class="Hand">
+                <p class="Num">9</p>
+
+                <img src="style/assets/La paire.png" alt="carte de poker" />
+
+                <p>La paire</p>
+              </div>
+
+
+
+              <div class="Hand">
+                <p class="Num">10</p>
+
+                <img
+                  src="style/assets/La carte haute (isolée).png"
+                  alt="carte de poker"
+                />
+
+                <p>La carte haute (isolée)</p>
+              </div>
+
+
+          </div>
+
+
+        
         <div class="BasRegles">
           <p class="Texte">
             Au poker, chaque joueur reçoit des cartes et tente de faire la
