@@ -37,10 +37,14 @@
     background-color: white;
     padding: 8px 12px;
     border-radius: 50px;
-    width:700px;
+    width:750px;
     line-height: 1.5;
     transform: rotate(-5deg);
     border: 3px solid #4f008c;
+    max-width: 750px;           /* Change 300px to your desired pixel value */
+    overflow-wrap: break-word;  /* Breaks long words if they exceed the width */
+    word-wrap: break-word;      /* Legacy alias for better browser support */
+    white-space: normal;
   }
 
 .explication p {

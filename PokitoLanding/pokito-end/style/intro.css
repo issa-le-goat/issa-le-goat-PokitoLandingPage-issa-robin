@@ -67,7 +67,7 @@ html, body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 56px;
+    padding: 16px 56px;
     border-radius: 9999px;
     font-size: 28px;
     font-weight: 600;
@@ -76,6 +76,7 @@ html, body {
     min-width: 260px;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
+
     
 
 }
