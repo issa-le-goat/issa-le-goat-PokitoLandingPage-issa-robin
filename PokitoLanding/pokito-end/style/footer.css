@@ -31,8 +31,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 90%;
-    padding-left: 80px;
+    width: 100%;
+    padding-left: 0px;
     padding-right: 0px;
 
 }
@@ -59,12 +59,14 @@ body{
 
 
 .Logo{
-    position: relative;
-    justify-self: center;
-    margin-bottom: 5px;
- 
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
+.Logo img{
+    width: 90%;
+}
 
 
 .logos{
@@ -100,4 +102,12 @@ body{
 .mail{
     color: white;
     font-size: 25px;
+}
+
+@media  screen and (max-width: 868px) {
+    .horizontal{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
 }

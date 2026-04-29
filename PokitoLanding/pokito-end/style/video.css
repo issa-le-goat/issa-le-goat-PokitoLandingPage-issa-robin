@@ -102,4 +102,11 @@
     .notif {
     left: -3%;
   }
+
+  .carré {
+    min-width: 300px;
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+  }
 }
