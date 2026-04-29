@@ -13,7 +13,7 @@
     font-family: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     color: #fff4dc;
     border-radius: 20px;
-    width: auto;
+    width: fit-content;
     padding: 20px;
     text-align: center;
     margin-bottom: 40px;
@@ -22,6 +22,13 @@
     padding-left: 53px;
     padding-right: 54px;
 
+}
+
+.Hand img {
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: auto;
 }
 
 .Num {
@@ -67,7 +74,7 @@
     height: 48.38px;
 }
 
-.regles h1{
+.regles h2{
     text-align: center;
     color: #FFC840;
     font-size: 64px;

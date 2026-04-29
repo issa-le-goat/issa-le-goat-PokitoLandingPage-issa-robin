@@ -179,7 +179,7 @@ html, body {
     object-fit: cover;
 }
 
-@media screen and (max-width: 768px) and (min-width: 424px) {
+@media screen and (max-width: 1108px) and (min-width: 424px) {
   .bb {
     gap: 15px;
     flex-direction: column;
