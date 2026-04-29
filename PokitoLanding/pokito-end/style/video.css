@@ -110,3 +110,22 @@
     padding: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .notif {
+    left: -3%;
+  }
+
+  .carré {
+    min-width: 300px;
+    width: 80%;
+    /* 1. On retire la hauteur fixe qui empêche la déformation proportionnelle */
+    height: auto; 
+    
+    /* 2. On définit le ratio (Largeur / Hauteur) */
+    /* Ici, je reprends votre ratio desktop (712 / 500) */
+    aspect-ratio: 712 / 500; 
+    
+    padding: 20px;
+  }
+}

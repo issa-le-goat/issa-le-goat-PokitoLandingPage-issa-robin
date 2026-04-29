@@ -282,76 +282,37 @@
     margin-right: 20px;
 }
 
-.P {
-    left: 65px;
-    top: 10px;
-    transform: rotate(-20deg);
-}
-
-.O1 {
-    left: 110px;
-    transform: rotate(-12deg);
-    z-index: 1;
-}
-
-.K {
-    left: 160px;
-    transform: rotate(-4deg);
-    z-index: 2;
-}
-
-.I {
-    left: 210px;
-    top: 0px;
-    transform: rotate(4deg);
-    z-index: 3;
-}
-
-.T {
-    left: 260px;
-    top: 2px;
-    transform: rotate(12deg);
-    z-index: 4;
-}
-
-.O2 {
-    left: 310px;
-    top: 10px;
-    transform: rotate(20deg);
-    z-index: 5;
-}
-
-.cards:hover .P {
+.cards.P {
     left: -190px;
     top:0px;
     transform: rotate(0deg);
 }
 
-.cards:hover .O1{
+.cards.O1{
     left: -40px;
     top:0px;
      transform: rotate(0deg);
 }
 
-.cards:hover .K{
+.cards.K{
     left: 110px;
     top:0px;
     transform: rotate(0deg);
 }
 
-.cards:hover .I{
+.cards.I{
     left: 260px;
     top:0px;
     transform: rotate(0deg);
 }
 
-.cards:hover .T{
+.cards.T{
     left: 410px;
     top:0px;
     transform: rotate(0deg);
 }
 
-.cards:hover .O2{
+.cards.O2{
     left: 560px;
     top:0px;
     transform: rotate(0deg);
@@ -396,12 +357,12 @@
 }
 
 /* --- POSITIONS INITIALES (Paquet fermé - décalé de -95px au total) --- */
-.P  { left: -55px; top: 10px; transform: rotate(-20deg); } 
-.O1 { left: -40px; top: 4px;  transform: rotate(-12deg); z-index: 1; }
-.K  { left: -25px; top: 0px;  transform: rotate(-4deg);  z-index: 2; }
-.I  { left: -10px; top: 0px;  transform: rotate(4deg);   z-index: 3; }
-.T  { left: 5px;   top: 4px;  transform: rotate(12deg);  z-index: 4; }
-.O2 { left: 20px;  top: 10px; transform: rotate(20deg);  z-index: 5; }
+.P  { left: -195px;; top: 0px; transform: rotate(0deg); } 
+.O1 { left: -125px; top: 0px;  transform: rotate(0deg); z-index: 1; }
+.K  { left: -55px; top: 0px;  transform: rotate(0deg);  z-index: 2; }
+.I  { left: 15px; top: 0px;  transform: rotate(0deg);   z-index: 3; }
+.T  { left: 85px;   top: 0px;  transform: rotate(0deg);  z-index: 4; }
+.O2 { left: 155px;  top: 0px; transform: rotate(0deg);  z-index: 5; }
 
 /* --- POSITIONS AU SURVOL (Éployées - décalées de -95px au total) --- */
 .cards:hover .P  { 
