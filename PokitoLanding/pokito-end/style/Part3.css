@@ -106,16 +106,16 @@
     width: 80%;
     justify-items: center;
     align-items: center;
-    margin-top: 20px;
-    padding-top: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
 }
 
-/*.Texte {
-    font-size: 32px;
+.Texte {
+    font-size: clamp(14px, 3vw, 24px);
     text-align: center;
-    width: 1227px;
+    width: 80%;
     align-self: center;
-}*/
+}
 
 .boutonJouerRegle {
     margin-top: 30px;
@@ -158,7 +158,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1108px) {
+@media screen and (max-width: 1230px) {
     .boutonJR {
         color: #FFC840;
         border: solid 3px #FFC840;
@@ -173,4 +173,58 @@
         border-radius: 50px;
     }
     
+}
+
+@media screen and (max-width: 426px) {
+    .Titre img {
+        display: none;
+    }
+
+    .Titre h2 {
+        font-size: 32px;
+    }
+
+    .Regles {
+        display: flex;
+        align-items: center;
+    }
+
+    .Hand {
+    width: 90%; 
+    max-width: 400px; 
+    box-sizing: border-box; 
+    margin: 0 auto 30px auto; 
+    padding: 25px 10px 10px 10px; 
+  }
+
+  .Hand img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    top: 0; 
+    left: 0; 
+  }
+
+  .Hand p:not(.Num) {
+    font-size: 14px; 
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+    .Num {
+        width: 20px;
+        height: auto;
+        border-radius: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px;
+        top: -55px;
+        left: -5px;
+    }
+
+    .boutonJouerRegle img {
+        display: none;
+    }
+
 }

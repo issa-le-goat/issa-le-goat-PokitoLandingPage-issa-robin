@@ -178,7 +178,7 @@ html, body {
     padding: 0px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 424px) {
+@media screen and (max-width: 1230px) {
   .bb {
     gap: 15px;
     flex-direction: column;
@@ -260,7 +260,22 @@ html, body {
     height: 450px;
     position: relative;
 }
+}
 
+@media  screen and (max-width: 426px) {
 
+    .intro {
+        background-image: none;
+        background-color: rgb(21, 0, 41);
+    }
+
+    .PositionImg img {
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;    
+    }
 
 }
+

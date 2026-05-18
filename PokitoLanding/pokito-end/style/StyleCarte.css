@@ -116,7 +116,7 @@
 }
 
 .I {
-    left: 210px;
+    left: 195px;
     top: 0px;
     transform: rotate(4deg);
     z-index: 3;
@@ -334,7 +334,7 @@
     align-self: center;
 }
 
-@media screen and (max-width: 768px) and (min-width: 424px)  {
+@media screen and (max-width: 1230px)  {
 
 /* --- CONTENEUR DE L'ANIMATION --- */
 .cards {
@@ -348,58 +348,49 @@
 }
 
 /* --- STYLE COMMUN DES CARTES --- */
-.carte {
-    position: absolute;
-    height: 80px;
-    width: auto;
-    transition: all 0.5s ease-in-out;
-    transform-origin: bottom center;
-}
+.cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto; 
+        margin: 20px 0; 
+        left: 0; 
+        top: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        gap: 8px; /* Espace légèrement augmenté pour aérer sur tablette */
+    }
 
-/* --- POSITIONS INITIALES (Paquet fermé - décalé de -95px au total) --- */
-.P  { left: -195px;; top: 0px; transform: rotate(0deg); } 
-.O1 { left: -125px; top: 0px;  transform: rotate(0deg); z-index: 1; }
-.K  { left: -55px; top: 0px;  transform: rotate(0deg);  z-index: 2; }
-.I  { left: 15px; top: 0px;  transform: rotate(0deg);   z-index: 3; }
-.T  { left: 85px;   top: 0px;  transform: rotate(0deg);  z-index: 4; }
-.O2 { left: 155px;  top: 0px; transform: rotate(0deg);  z-index: 5; }
+    /* Les cartes individuelles */
+    .carte {
+        position: static; 
+        width: 15%; 
+        max-width: 80px; /* Limite augmentée pour s'adapter à la largeur d'une tablette */
+        height: auto; 
+        margin: 0; 
+        transition: none; 
+    }
 
-/* --- POSITIONS AU SURVOL (Éployées - décalées de -95px au total) --- */
-.cards:hover .P  { 
-    left: -195px; 
-    top: 0; 
-    transform: rotate(0deg); 
-}
+    /* Réinitialisation complète des positions et rotations pour chaque lettre */
+    .P, .O1, .K, .I, .T, .O2 {
+        left: auto;
+        top: auto;
+        transform: none;
+    }
 
-.cards:hover .O1 { 
-    left: -125px;  
-    top: 0; 
-    transform: rotate(0deg); 
-}
-
-.cards:hover .K  { 
-    left: -55px;  
-    top: 0; 
-    transform: rotate(0deg); 
-}
-
-.cards:hover .I  { 
-    left: 15px;   
-    top: 0; 
-    transform: rotate(0deg); 
-}
-
-.cards:hover .T  { 
-    left: 85px;  
-    top: 0; 
-    transform: rotate(0deg); 
-}
-
-.cards:hover .O2 { 
-    left: 155px;  
-    top: 0; 
-    transform: rotate(0deg); 
-}
+    /* Désactivation des effets au survol (hover) sur les appareils tactiles */
+    .cards:hover .P,
+    .cards:hover .O1,
+    .cards:hover .K,
+    .cards:hover .I,
+    .cards:hover .T,
+    .cards:hover .O2 {
+        left: auto;
+        top: auto;
+        transform: none;
+    }
 
 
 .around {
@@ -418,4 +409,71 @@
     transition: border 0.2s ease;
 }
 
+
+
+}
+
+@media screen and (max-width: 426px) {
+    .Cartes h1 {
+        font-size: 32px;
+    }
+
+    .around {
+        width: 90%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .Des {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .around h2 {
+        font-size: 24px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Centre les cartes horizontalement */
+        align-items: center;
+        width: 100%;
+        height: auto; /* Annule la hauteur fixe du bureau */
+        margin: 20px 0; /* Gère l'espacement vertical */
+        left: 0; /* Réinitialise le décalage du bureau */
+        top: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        gap: 5px; /* Définit un espace régulier et fluide entre les cartes */
+    }
+
+    /* Les cartes individuelles */
+    .carte {
+        position: static; /* Annule le 'absolute' du bureau, essentiel pour Flexbox */
+        width: 15%; /* Permet aux cartes de rétrécir/grandir avec l'écran */
+        max-width: 50px; /* Empêche les cartes d'être trop grandes */
+        height: auto; /* Garde les proportions de l'image */
+        margin: 0; /* Annule les marges du bureau */
+        transition: none; /* Désactive l'animation */
+    }
+
+    /* Réinitialisation complète des positions et rotations pour chaque lettre */
+    .P, .O1, .K, .I, .T, .O2 {
+        left: auto;
+        top: auto;
+        transform: none;
+    }
+
+    /* Désactivation des effets au survol (hover) sur mobile */
+    .cards:hover .P,
+    .cards:hover .O1,
+    .cards:hover .K,
+    .cards:hover .I,
+    .cards:hover .T,
+    .cards:hover .O2 {
+        left: auto;
+        top: auto;
+        transform: none;
+    }
 }
