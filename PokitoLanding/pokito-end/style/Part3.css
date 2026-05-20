@@ -112,7 +112,7 @@
 }
 
 .Texte {
-    font-size: clamp(14px, 3vw, 24px);
+    font-size: clamp(12px, 2.5vw, 18px);
     text-align: center;
     width: 80%;
     align-self: center;
@@ -158,6 +158,44 @@
     color: black;
     cursor: pointer;
 }
+
+.Hand {
+    width: 90%; 
+    max-width: 400px; 
+    box-sizing: border-box; 
+    margin: 0 auto 30px auto; 
+    padding: 25px 10px 10px 10px; 
+  }
+
+  .Hand img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    top: 0; 
+    left: 0; 
+  }
+
+  .Hand p:not(.Num) {
+    font-size: 14px; 
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+    .Num {
+        width: 20px;
+        height: auto;
+        border-radius: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px;
+        top: -55px;
+        left: -5px;
+    }
+
+    .boutonJouerRegle img {
+        display: none;
+    }
 
 @media screen and (max-width: 1230px) {
     .boutonJR {

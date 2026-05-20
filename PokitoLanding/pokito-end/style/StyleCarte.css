@@ -111,27 +111,28 @@
 
 .K {
     left: 160px;
+    top : -5px;
     transform: rotate(-4deg);
     z-index: 2;
 }
 
 .I {
     left: 195px;
-    top: 0px;
+    top: -5px;
     transform: rotate(4deg);
     z-index: 3;
 }
 
 .T {
-    left: 260px;
+    left: 240px;
     top: 2px;
     transform: rotate(12deg);
     z-index: 4;
 }
 
 .O2 {
-    left: 310px;
-    top: 10px;
+    left: 290px;
+    top: 15px;
     transform: rotate(20deg);
     z-index: 5;
 }
