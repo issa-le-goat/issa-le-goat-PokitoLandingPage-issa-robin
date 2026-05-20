@@ -3,6 +3,7 @@
 .regles {
     margin-top: 50px;
     padding-top: 30px;
+    margin-bottom: 100px;
     width: 100%;
     display: flex;
 }
@@ -19,15 +20,15 @@
     margin-bottom: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 53px;
-    padding-right: 54px;
+    padding-left: 33px;
+    padding-right: 34px;
 
 }
 
 .Hand img {
     top: -20px;
     left: -20px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -70,14 +71,14 @@
 }
 
 .Fleur {
-    width: 96px;
-    height: 48.38px;
+    width: 80px;
+    height: auto;
 }
 
 .regles h2{
     text-align: center;
     color: #FFC840;
-    font-size: 64px;
+    font-size: 40px;
 }
 
 .regles body {
