@@ -336,7 +336,6 @@
 
 @media screen and (max-width: 1230px)  {
 
-/* --- CONTENEUR DE L'ANIMATION --- */
 .cards {
     position: relative;
     width: 160px;
@@ -367,7 +366,7 @@
     .carte {
         position: static; 
         width: 15%; 
-        max-width: 80px; /* Limite augmentée pour s'adapter à la largeur d'une tablette */
+        max-width: 60px; /* Limite augmentée pour s'adapter à la largeur d'une tablette */
         height: auto; 
         margin: 0; 
         transition: none; 
@@ -413,15 +412,19 @@
 
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 430px) {
     .Cartes h1 {
         font-size: 32px;
+    }
+
+    .About {
+        padding : 20px;
     }
 
     .around {
         width: 90%;
         margin: 0px;
-        padding: 10px;
+        padding: 5px;
     }
 
     .Des {

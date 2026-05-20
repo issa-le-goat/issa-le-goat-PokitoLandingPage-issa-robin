@@ -262,7 +262,7 @@ html, body {
 }
 }
 
-@media  screen and (max-width: 426px) {
+@media  screen and (max-width: 430px) {
 
     .intro {
         background-image: none;
@@ -276,6 +276,13 @@ html, body {
         height: auto;
         object-fit: cover;    
     }
+    .description {
+        font-size: 24px;
+    }
+    .slogan p {
+        font-size: 16px;
+    }
+
 
 }
 
