@@ -54,38 +54,7 @@
   background-color: #ffffff;
   border-radius: 28px;
   width: fit-content;
-}
-
-.b3 button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-    color: white;
-    border: solid 3px #d1006e;
-    background-color: #d1006e;
-    justify-self: center;
-    padding-inline: 50px;
-    width: auto;
-    height: 74px;
-    text-align: center;
-    font-size: 32px;
-    font-weight: 500;
-    border-radius: 50px;
-    font-family: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    transition: all 0.3s ease-in-out;
-}
-
-.b3 button text {
-  margin-inline: 50px;
-  margin-right: 50px;
-}
-
-.b3 button:hover{
-    color: white;
-    background: transparent;
-    border-color: #d1006e;
-
-}
+} 
 
 .box20{
   display: flex;
@@ -116,6 +85,11 @@
     left: -3%;
   }
 
+  .Video .b2 {
+      max-width: 260px;
+      max-height: 58px;
+    }
+
   .carré {
     min-width: 300px;
     width: 80%;
@@ -127,16 +101,15 @@
 }
 
 @media screen and (max-width: 430px) {
-    .b3 button {
-        padding: 16px 56px;
-        font-size: 16px;
-    }
-
     .carré {
       min-width: 250px;
       width: 80%;
       height: auto;
 
+    }
+
+    .Video .b2 {
+      max-width: 260px;
     }
 
     .notif {

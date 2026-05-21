@@ -212,6 +212,10 @@
         border-radius: 50px;
     }
 
+    .regles .b1 {
+        max-width: 260px;
+    }
+
     .Regles {
         display: flex;
         align-items: center;
@@ -301,8 +305,12 @@
         left: -5px;
     }
 
+
+
     .boutonJouerRegle img {
         display: none;
     }
+
+
 
 }
